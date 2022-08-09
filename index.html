@@ -1,1 +1,583 @@
-salom
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/x-icon" href="images/DLC_Logo_Blue.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style/style_cards.css">
+    <link rel="stylesheet" type="text/css" href="style/footer.css">
+    <link rel="stylesheet" type="text/css" href="style/form.css">
+    
+    <!-- Not connected links-->
+    <link rel="stylesheet" type="text/css" href="style/.css">
+    <title favicone="aria-controls">Dalilogistic</title>
+  </head>
+  <style>
+    .banner_container {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+
+    .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 50px;
+        color: #F8F9FA;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        right: 30px;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        background-color: #FF6600;
+        color: white;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+      }
+
+      #myBtn:hover {
+        background-color: #555;
+      }
+  </style>
+  <body>
+
+  <!----------------------------------- Меню ------------------------------------>
+  <div class="sticky-top" style="background-color: #FF6600; opacity: 0.9;">
+  <header class="p-3 bg-bg-light text-white">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="#" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img src="images/DLC_Logo_Blue.svg" width="40px" height="40px">
+        </a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="#" class="nav-link px-2 text-white">Главная</a></li>
+          <li><a href="#about_us" class="nav-link px-2 text-white">О нас</a></li>
+          <li><a href="#card" class="nav-link px-2 text-white">Наши услуги</a></li>
+          <li><a href="#online_store" class="nav-link px-2 text-white">Интернет магазины</a></li>
+          <li><a href="#faq" class="nav-link px-2 text-white">Faq</a></li> 
+          <li><a href="#our_clients" class="nav-link px-2 text-white">Наш партнер</a></li>
+          <li><a href="#contacts" class="nav-link px-2 text-white">Контакты</a></li>
+          <li><a href="form.html" class="nav-link px-2 text-white">Оставить заявку</a></li>
+          
+        </ul>
+
+        <div class="text-end">
+          <button type="button" class="btn btn-outline-light me-2" style="background-color: white;"><a href="SignUp.html" style="text-decoration: none; color: #F48E00;">Регистрация</a></button>
+          <button type="button" class="btn btn-light"><a href="login.html" style="text-decoration: none; color: #FF6600;">Вход</a></button>
+        </div>
+      </div>
+    </div>
+  </header>
+</div>
+  <!----------------------------------- Баннер ------------------------------------>
+<div class="banner_container">
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/banner_1.png" class="d-block w-100" alt="...">
+        <div class="centered">БЫСТРАЯ И НАДЕЖНАЯ ТРАНСПОРТНАЯ СЛУЖБА 
+
+          <!--------------------- Tracking --------------------------->
+          <nav class="navbar navbar-light bg-light" style="border-radius: 7px;">
+            <div class="container-fluid">
+              <p class="lead" style="color: darkgray; padding: 13px 0 0 7px">Enter your tracking number</p>
+              <form class="d-flex">
+                <input class="form-control me-5" type="search" placeholder="up to 10 codes" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" style="width: 160px; color: white; background-color: #FF751A">Track</button>
+              </form>
+            </div>
+          </nav>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/banner_2.jpg" class="d-block w-100" alt="...">
+        <div class="centered">БЫСТРАЯ И НАДЕЖНАЯ ТРАНСПОРТНАЯ СЛУЖБА
+
+          <!--------------------- Tracking --------------------------->
+          <nav class="navbar navbar-light bg-light" style="border-radius: 7px;">
+            <div class="container-fluid">
+              <p class="lead" style="color: darkgray; padding: 13px 0 0 7px">Enter your tracking number</p>
+              <form class="d-flex">
+                <input class="form-control me-5" type="search" placeholder="up to 10 codes" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" style="width: 160px; color: white; background-color: #FF751A">Track</button>
+              </form>
+            </div>
+          </nav>
+
+        </div>    
+      </div>
+      <div class="carousel-item">
+        <img src="images/banner_3.jpg" class="d-block w-100" alt="...">
+        <div class="centered">БЫСТРАЯ И НАДЕЖНАЯ ТРАНСПОРТНАЯ СЛУЖБА 
+
+          <!--------------------- Tracking --------------------------->
+          <nav class="navbar navbar-light bg-light" style="border-radius: 7px;">
+            <div class="container-fluid">
+              <p class="lead" style="color: darkgray; padding: 13px 0 0 7px">Enter your tracking number</p>
+              <form class="d-flex">
+                <input class="form-control me-5" type="search" placeholder="up to 10 codes" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit" style="width: 160px; color: white; background-color: #FF751A">Track</button>
+              </form>
+            </div>
+          </nav>
+          
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+  <!----------------------------------- О Нас ------------------------------------>
+  <section id="about_us" class="about_us">
+  <div class="container">
+    <h2 class="text-center" style="padding-top: 80px">Немного о нас</h2>
+    <div class="row" style="padding: 30px">
+      <div class="col" style="padding: 30px">
+        <video width="650" controls>
+          <source src="video/Logistics_Video.mp4" type="video/mp4">
+        </video>
+      </div>
+      <div class="col">
+        <h2 style="padding: 20px;">Как мы работаем?</h2>
+        <p class="lead"><strong>ООО «Логистическая Компания Дали»</strong>оказывает транспортно-экспедиционные услуги в международном сообщении на протяжении всего процесса доставки. Мы подготавливаем груз к перемещению, берем на себя заботы об оформлении сопроводительной документации, сопровождаем груз по пути следования, обеспечивая доставку в срок, в полной сохранности в соответствии с намеченным маршрутом и информируем Клиента о местонахождении груза.</p>
+        <button type="button" class="btn btn-warning" style="width: 220px; padding: 15px; color: white; background-color: #FF6600;"data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Заказать Звонок</button>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Заказать Звонок</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Имя:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">Телефон:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="recipient-name" class="col-form-label">E-mail:</label>
+                    <input type="text" class="form-control" id="recipient-name">
+                  </div>
+                  <div class="mb-3">
+                    <label for="message-text" class="col-form-label">Message:</label>
+                    <textarea class="form-control" id="message-text"></textarea>
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-warning" style="color: white; background-color: #FF6600">Отправить</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    </section>
+
+  <!----------------------------------- Нашей Услуги ------------------------------------>
+  <section id="card" class="card" style="background-color: #F5F5F5; padding-bottom: 100px">
+  <div class="container">
+    <h2 class="text-center" style="padding: 80px 0 30px 0;">Нашей Услуги</h2>
+    <div class="row">
+      <div class="col">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <a href="avia.html"><img src="images/avia_img.jpg" alt="Avatar" style="width:300px; height:300px;"></a>
+            </div>
+            <div class="flip-card-back">
+              <a href="avia.html"><img src="images/avia_img.jpg" alt="Avatar" style="width:300px; height:300px;"></a>
+            </div>
+          </div>
+          <h4 style="padding: 20px; text-align: center">Авиаперевозки</h4>
+        </div>
+      </div>
+      <div class="col">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <a href="road.htm"><img src="images/truck_img.jpg" alt="Avatar" style="width:300px; height:300px;"></a>
+            </div>
+            <div class="flip-card-back">
+              <a href="road.html"><img src="images/truck_img.jpg" alt="Avatar" style="width:300px;height:300px;"></a>
+            </div>
+          </div>
+          <h4 style="padding: 20px; text-align: center">Автоперевозки</h4>
+        </div>
+      </div>
+      <div class="col">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <a href="train.html"><img src="images/railway.jpg" alt="Avatar" style="width:300px;height:300px;"></a>
+            </div>
+            <div class="flip-card-back">
+              <a href="train.html"><img src="images/railway.jpg" alt="Avatar" style="width:300px;height:300px;"></a>
+            </div>
+          </div>
+          <h4 style="padding: 20px; text-align: center">Железнодорожные перевозки</h4>
+        </div>
+      </div>
+      <div class="col">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <a href="multi.html"><img src="images/multi_img.jpg" alt="Avatar" style="width:300px;height:300px;"></a>
+            </div>
+            <div class="flip-card-back">
+              <a href="multi.html"><img src="images/multi_img.jpg" alt="Avatar" style="width:300px; height:300px;"></a>
+            </div>
+          </div>
+          <h4 style="padding: 20px; text-align: center">Мультимодальные перевозки</h4>
+        </div>     
+      </div>
+    </div>
+  </div>
+  </section>
+
+<!----------------------------------- Интернет магазины ------------------------------------>
+<section id="online_store" class="online_store">
+  <div class="container">
+    <div class="row" style="margin: 25px;">
+      <h2 style="padding-top: 100px; margin-bottom: 50px; text-align: center;">Интернет магазины</h2>
+      <div class="col">
+        <div class="card" style="width: 12rem;">
+          <a href="http://aliexpress.com"><img src="images/aliexpress.png" class="card-img-top" alt="..." style="border-radius: 5px;"></a>
+        </div>      
+      </div>
+      <div class="col">
+        <div class="card" style="width: 12rem;">
+          <a href="http://Amazon.com"><img src="images/amazon.jpg" class="card-img-top" alt="..." style="border-radius: 5px;"></a>
+        </div>
+      </div>
+      <div class="col">
+         <div class="card" style="width: 12rem;">
+          <a href="http://ebay.com"><img src="images/ebay.png" class="card-img-top" alt="..." style="border-radius: 5px;"></a>
+        </div>       
+      </div>
+      <div class="col">
+         <div class="card" style="width: 12rem;">
+          <a href="http://world.taobao.com"><img src="images/Taobao.png" class="card-img-top" alt="..." style="border-radius: 5px;"></a>
+        </div>       
+      </div>
+    </div>
+    <div class="row" style="padding: 40px;">
+      <div class="col">
+         <div class="card" style="width: 12rem;">
+          <a href="http://walmart.com"><img src="images/walmart.png" class="card-img-top" alt="..." style="border-radius: 5px;"></a>
+        </div>
+      </div>
+      <div class="col">
+         <div class="card" style="width: 12rem;">
+          <a href="http://tmall.com"><img src="images/TMall.png" class="card-img-top" alt="..." style="border-radius: 5px;"></a>
+        </div>     
+      </div>
+      <div class="col">
+         <div class="card" style="width: 12rem;">
+          <a href="http://flipkart.com"><img src="images/flipkart.jpg" class="card-img-top" alt="..." style="border-radius: 5px;"></a>
+        </div>   
+      </div>
+      <div class="col">
+         <div class="card" style="width: 12rem;">
+          <a href="http://Alibaba.com"><img src="images/Alibaba.png" class="card-img-top" alt="..." style="border-radius: 5px;"></a>
+        </div>
+      </div> 
+    </div>
+</section>
+
+<!----------------------------------- FAQ ------------------------------------>
+<section id="faq" class="faq" style="background-color: #F5F5F5">
+  <div class="container">
+    <div class="row">
+      <h2 style="padding-top: 100px; text-align: center;">Часто задаваемый вапросы</h2>
+      <div class="col" style="padding: 50px;">
+          <div class="accordion accordion-flush" id="accordionFlushExample" style="padding-right: 50px;">
+            <div class="accordion-item" style="padding: 10px">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Как зарегистрироваться на сайт?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">На правом верхнем углу есть кнопка ЗАРЕГИСТРИРОВАТЬСЯ, если у вас нет учетной записи нажимайте на кнопку У МЕНЯ НЕТ УЧЕТНОЙ ЗАПИСИ дальше вам нужно внести ваши данные и ОТПРАВИТЬ.</div>
+              </div>
+            </div>
+            <div class="accordion-item" style="padding: 10px">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                  В какие страны осуществляете доставку?
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Вид доставки, приемлемый по стоимости для большинства компаний. Обеспечивает соблюдение сроков, контроль транспортировки от точки погрузки до точки доставки груза. Вид доставки, приемлемый по стоимости для большинства компаний.</div>
+              </div>
+            </div>
+            <div class="accordion-item" style="padding: 10px">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                  Как рассчитать стоимость отправления?
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Рассчитать стоимость отправления можно в нашем калькуляторе.</div>
+              </div>
+            </div>
+            <div class="accordion-item" style="padding: 10px">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                  Как узнать, где товар?
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Узнайте, где находиться ваш товар, через онлайн-отслеживание. Там всегда самая свежая информация.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 50px;">
+            <div class="accordion accordion-flush" id="accordionFlushExample" style="padding-right: 50px;">
+              <div class="accordion-item" style="padding: 10px">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Можно ли забрать груз, а заплатить позже? 
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Выдача груза производится только после полной оплаты услуг Экспедитора. Для крупных компаний, работающих с нами длительное время, возможно рассмотрение отсрочки платежа на определенных условиях.</div>
+                </div>
+              </div>
+              <div class="accordion-item" style="padding: 10px">
+                <h2 class="accordion-header" id="flush-headingOne">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    Какой максимальный размер или вес для отправки?
+                  </button>
+                </h2>
+                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Если вы предоставите полную информацию о своем товаре, мы определим удобное для вас время и цену.</div>
+                </div>
+              </div>
+              <div class="accordion-item" style="padding: 10px">
+                <h2 class="accordion-header" id="flush-headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    Где есть офисы ООО “Логистическая Компания Дали”?
+                  </button>
+                </h2>
+                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Главный офис компании находится в Китай, остальные в Узбекистане и Таджикистане.</div>
+                </div>
+              </div>
+              <div class="accordion-item" style="padding: 10px">
+                <h2 class="accordion-header" id="flush-headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    Какие уведомления придут получателю? 
+                  </button>
+                </h2>
+                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">Наши сотрудники оперативно будут информировать вас о передвижение ваших товаров. Мы используем несколько каналов отправки уведомлений о доставке: СМС, телефонный звонок, электронная почта и популярные мессенджеры / социальные сети.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+  </section>
+
+<!----------------------------------- Наш партнер ------------------------------------>
+<section id="our_clients" class="our_clients">
+<div class="container">
+  <h2 class="text-center" style="padding: 80px">Наш партнер</h2>
+  <div class="row"  style="padding: 20px;">
+    <div class="col">
+      <a href="https://marmari.tj"><img src="images/logo_1.png" class="img-thumbnail" alt="Logo" width="100%"></a>
+    </div>
+    <div class="col">
+      <a href="https://atlantica.trade/"><img src="images/logo_2.png" class="img-thumbnail" alt="Logo" width="100%"></a>
+    </div>
+    <div class="col">
+      <a href="http://avesta.tj"><img src="images/logo_3.jpg" class="img-thumbnail" alt="Logo" width="100%"></a>
+    </div>
+    <div class="col">
+      <a href="https://siyoma.tj"><img src="images/logo_4.png" class="img-thumbnail" alt="Logo" width="100%"></a>
+    </div>
+    <div class="col">
+      <a href="https://dc.tj/"><img src="images/logo_5.png" class="img-thumbnail" alt="Logo" width="100%"></a>
+    </div>
+  </div>
+</div>
+</section>
+
+<!----------------------------------- Контакты ------------------------------------>
+<section id="contacts" class="contacts" style="background-color: #F5F5F5">
+<div class="container">
+  <div class="row" style="padding: 25px;">
+    <div class="col-6" style="padding: 50px">
+      <div class="mb-3">
+        <h4 style="padding: 20px; color: #212529; font-size: 32px;">Оставить заявку</h4>
+        <label for="exampleFormControlInput1" class="form-label" style="padding: 10px">Ваше имя</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ваше имя">
+        <label for="exampleFormControlInput1" class="form-label" style="padding: 10px">Ваше номер</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ваше номер">
+        <label for="exampleFormControlInput1" class="form-label" style="padding: 10px">Ваше Почта</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ваше Почта">
+        <label for="formFile" class="form-label" style="padding: 10px">Файль</label>
+        <input class="form-control" type="file" id="formFile">
+      </div>
+      <div class="mb-3">
+        <label for="exampleFormControlTextarea1" class="form-label" style="padding: 10px">Техт ...</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+      <button type="button" class="btn btn-warning" style="color: white; background-color: #FF6600">Отправить</button>
+    </div>
+    <div class="col-6" style="padding: 50px">
+      <h2 style="padding: 20px; color: #212529;">Контакты</h2>
+      <div class="accordion" id="accordionPanelsStayOpenExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+              <h4 class="text-warning">Tajikistan</h4>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+            <div class="accordion-body">
+              <h4 class="text-warning">Tajikistan</h4>
+              <p class="text-secondary">Тел: (+992) 930 990 000<br>
+              Email: info@dalilogistic.com<br>
+              Тел: (+992) 930 990 000<br>
+              Адрес: Таджикистан, г.Душанбе, ул.Джаббор Расулова 45</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+              <h4 class="text-warning">Узбекистан</h4>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+            <div class="accordion-body">
+              <h4 class="text-warning">Узбекистан</h4>
+              <p class="text-secondary">Тел: (+998)900543510<br>
+              Email: info@dalilogistic.com<br>
+              Адрес: Г. Ташкент, ул.Кохи Нур 1/1</p>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+              <h4 class="text-warning">Китай</h4>
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+            <div class="accordion-body">
+              <h4 class="text-warning">Китай</h4>
+              <p class="text-secondary">Тел: +8617322733043<br>
+              Email: info@dalilogistic.com<br>
+              Адрес: 2216, Building E, Wanda Plaza, Nanhai District, Foshan ,China.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!----------------------------------- Нижний часть ------------------------------------>
+<section id="footer" class="footer" style="background-color: #212529">
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <p class="col-md-4 mb-0 text-muted">&copy; Copyright All rights reserved Desinged by Mr: IDRIS</p>
+
+    <a href="/" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+      <svg class="bi me-2" width="40" height="32"></svg>
+    </a>
+
+    <ul class="nav col-md-4 justify-content-end">
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="images/icons8-facebook-48.png" width="35px"></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="images/icons8-twitter-squared-48.png"  width="35px"></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="images/icons8-instagram-48.png"  width="35px"></a></li>
+      <li class="nav-item"><a href="#" class="nav-link px-2 text-muted"><img src="images/icons8-youtube-48.png"  width="35px"></a></li>
+    </ul>
+  </footer>
+</div>
+</section>
+
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+
+<script>
+//Get the button
+var mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+      
+      var exampleModal = document.getElementById('exampleModal')
+      exampleModal.addEventListener('show.bs.modal', function (event) {
+        // Button that triggered the modal
+        var button = event.relatedTarget
+        // Extract info from data-bs-* attributes
+        var recipient = button.getAttribute('data-bs-whatever')
+        // If necessary, you could initiate an AJAX request here
+        // and then do the updating in a callback.
+        //
+        // Update the modal's content.
+        var modalTitle = exampleModal.querySelector('.modal-title')
+        var modalBodyInput = exampleModal.querySelector('.modal-body input')
+
+        modalTitle.textContent = 'New message to ' + recipient
+        modalBodyInput.value = recipient
+      })
+    </script>
+
+  </body>
+</html>
